@@ -1,11 +1,11 @@
 li {
     list-style: none;
-    font-size: 18px;
 }
 
 li a {
     text-decoration: none;
     color: black;
+    font-size: 29px;
 }
 
 .section1 {
@@ -15,6 +15,8 @@ li a {
 .section1 .header {
     display: flex;
     justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 
 .section1 .content {
@@ -25,6 +27,7 @@ li a {
 
 .section1 .content .left {
     flex: 1;
+    padding-left: 100px;
 }
 
 .section1 .content .right {
@@ -90,8 +93,64 @@ h3 {
 
 .info1, .info2, .info3, .info4 {
     margin: 10px;
+    text-align: center;
 }
 
 .footer {
     text-align: center;
+    background-color: #1f2937;
+    color: white;
+}
+
+.footer p {
+    padding: 10px;
+}
+
+.section3 {
+    background-color: #e5e7eb;
+}
+
+.section3 p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.section3 .content {
+    padding: 50px 100px;
+}
+
+.section3 h6 {
+    font-size: 30px;
+    text-align: end;
+}
+
+.section4 .content {
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 100px 850px;
+    padding: 50px 100px;
+    border-radius: 10px;
+}
+
+.section4 .content h6 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.section4 .content p {
+    font-size: 12px;
+    margin: 0;
+}
+
+.section4 .left {
+    display: flex;
+    flex-direction: column;
+}
+
+.section4 button {
+    border-color: white;
 }
